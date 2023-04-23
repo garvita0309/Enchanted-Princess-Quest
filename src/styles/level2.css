@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.con-level2{
+    display: flex;
+    flex-direction: column;
+    background: url("../images/level2bg.jpg");
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 1.4rem;
+}
+.innercont-level2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-text{
+    color: black;
+    font-size: 0.9rem;
+}
+.card-title{
+    color: black;
+}
+.cards{
+    display:flex ;
+    margin: 2%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+}
+.cd{
+    position: relative;
+    height: 60%;
+    width: 25%;
+}
+.innercont-level2 hr{
+    color: white;
+}
+@media (max-width: 1185px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .con-level2{
+        font-size: 1rem;
+    }
+    .cd{
+        position: relative;
+        height: 20%;
+        width:60%;
+    }
+}

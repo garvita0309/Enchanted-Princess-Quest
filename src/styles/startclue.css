@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont-start{
+    background: url("../images/jasmine.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+.incont-start{
+    color: rgb(250, 253, 255);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: right;
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    text-shadow: 1rem 1rem 0.2 black;
+    text-align: right;
+}

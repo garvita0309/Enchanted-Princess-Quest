@@ -1,0 +1,79 @@
+
+.inner-container-level41 img{
+    height: 20rem;
+    width: 20rem;
+    margin: 3%;
+}
+.inner-container-level41 h3{
+     color: aliceblue;
+}
+.inner-container-level41{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-level41{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: url("../images/level4bg.jpg");
+    padding: 3%;
+}
+.key-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.key-image img{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+@media (max-width: 1160px){
+    .key-image img{
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+    }
+    .inner-container-level41 img{
+        height: 15rem;
+        width: 15rem;
+        margin: 3%;
+    }
+}
+@media (max-width: 800px){
+    .key-image img{
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+    }
+    .inner-container-level41 img{
+        height: 8rem;
+        width: 8rem;
+        margin: 1%;
+    }
+    .inner-container-level41 h3, h4{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 415px){
+    .key-image img{
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+    }
+    .inner-container-level41 img{
+        height: 5rem;
+        width: 5rem;
+        margin: 1%;
+    }
+    .inner-container-level41 h3, h4{
+        font-size: 1rem;
+    }
+}

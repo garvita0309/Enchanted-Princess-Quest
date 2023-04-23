@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cardimage img{
+    height: 100%;
+    width:100%;
+    
+}
+.card-container{
+    background-color: aliceblue;
+    margin: 2%;
+    padding: 2%;
+}
+input{
+    width:70%
+}
+@media (max-width: 1185px){
+    .cardimage img{
+        height: 10%;
+        width:80%;
+        
+    }
+}
